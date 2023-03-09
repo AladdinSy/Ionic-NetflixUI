@@ -1,0 +1,38 @@
+<div class="drawer ion-padding" #drawer>
+  <ion-row class="ion-align-items-center">
+    <ion-col size="10">
+      <h2>{{ title }}</h2>
+    </ion-col>
+    <ion-col size="2" class="ion-text-right">
+      <ion-button
+        (click)="closeDrawer()"
+        fill="clear"
+        color="medium"
+        size="large"
+      >
+        <ion-icon slot="start" name="close-circle"></ion-icon>
+        Click me
+      </ion-button>
+    </ion-col>
+
+    <ion-col size="2">
+      <ion-icon slot="start" name="information-circle-outline"></ion-icon>
+    </ion-col>
+    <ion-col size="10"> Episodes and Info </ion-col>
+
+    <ion-col size="2">
+      <ion-icon slot="start" name="download-outline"></ion-icon>
+    </ion-col>
+    <ion-col size="10"> Download Episode </ion-col>
+
+    <ion-col size="2">
+      <ion-icon slot="start" name="thumbs-up-outline"></ion-icon>
+    </ion-col>
+    <ion-col size="10"> like </ion-col>
+
+    <ion-col size="2">
+      <ion-icon slot="start" name="thumbs-down-outline"></ion-icon>
+    </ion-col>
+    <ion-col size="10"> Not For Me </ion-col>
+  </ion-row>
+</div>

@@ -1,0 +1,73 @@
+{
+  "spotlight": {
+    "id": 2,
+    "name": "Firefly",
+    "rating": "#5 i Germany Today",
+    "desc": "One found fame and fortune. The other love ad family."
+  },
+
+  "sections": [
+    {
+      "title": "Continue Watching For Aladdin",
+      "type": "continue",
+      "series": [
+        {
+          "id": 1,
+          "progress": 42,
+          "title": "Bridergton",
+          "season": "S1:E3"
+        },
+        {
+          "id": 2,
+          "progress": 80,
+          "title": "Lupin",
+          "season": "S1:E5"
+        }
+      ]
+    },
+    {
+      "title": "Netflix Originals",
+      "type": "original",
+      "series": [
+        {
+          "id": 1,
+          "title":"",
+          "progress": 0
+
+        },
+        {
+          "id": 2,
+          "title":"",
+          "progress": 0
+        },
+        {
+          "id": 3,
+          "title":"",
+          "progress": 0
+        }
+      ]
+    },
+    {
+      "title": "Trending now",
+      "type": "series",
+      "series": [
+        {
+          "id": 4,
+          "title":"",
+          "progress": 0
+        },
+        {
+          "id": 5,
+          "title":"",
+          "progress": 0
+        },
+        {
+          "id": 6,
+          "title":"",
+          "progress": 0
+        }
+      ]
+    }
+  ]
+
+}
